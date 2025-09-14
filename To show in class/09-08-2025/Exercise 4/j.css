@@ -1,0 +1,54 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body background and font */
+body {
+    background-color: rgb(94, 78, 49);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    max-width: 1020px;
+    min-width: 640px;
+    line-height: 1.6;
+}
+
+/* Article box */
+article {
+    background-color: rgb(229, 197, 157);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Headings styles */
+h1 {
+    font-family: Precious, cursive;   /* or fallback serif */
+    font-size: 2.5em;
+    color: rgb(21, 207, 176); /* teal-like */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Chiller', cursive; /* can replace with any script font */
+    font-size: 2em;
+    color: rgb(124, 199, 4); /* green */
+    margin: 15px 0 10px 0;
+}
+
+h3 {
+    font-family: Process, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: rgb(46, 4, 199); /* purple-blue */
+    margin: 15px 0 10px 0;
+}
+
+/* Paragraphs */
+article p {
+    margin: 10px 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+    font-size: 0.95em;
+    color: #111;
+    background: rgba(255, 255, 255, 0.7); /* light highlight */
+    padding: 8px;
+    border-radius: 4px;
+}

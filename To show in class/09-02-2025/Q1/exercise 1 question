@@ -1,0 +1,29 @@
+Exercise 1
+
+(Q1).Write a JavaScript program to determine whether a transaction results in a profit or a loss, and display the corresponding amount in the console.
+
+* an if-else statement to compare the cost price and the selling price.
+* a template literal to display the result.
+
+Conditions:
+
+* If sellingPrice > costPrice, it's a profit.
+* If costPrice > selling Price, it's a loss.
+
+Consider the test data below:
+Test Data1:
+
+* costPrice = 100;
+* sellingPrice = 250;
+
+Test Data 2:
+
+* costPrice = 300;
+* sellingPrice = 150;
+
+Expected output
+You lost Nu. 150
+You have generated Nu. 50 profit.
+
+Practice Questions
+(Q2). Write a JavaScript program that displays the largest integer among two integers.
